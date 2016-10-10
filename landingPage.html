@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <title>Landing-Page</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    
+    <style type="text/css">
+      
+        #email{
+            width: 300px;
+        }
+        #img1{
+            width: 200px;
+            height: 242px;
+        }
+        #principal{
+            
+            margin: 0 auto;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        .fa2{
+             margin-right: 10px;
+        }
+        h1, h2{
+            text-align: center;
+        }
+        .imagen{
+            width: 300px;
+            height: 100px;
+           
+        }
+        footer{
+            background-color: orange;
+            padding-top: 150px;
+            margin-top: 150px;
+            text-align: center;
+            padding-bottom: 150px;
+        }
+        #separacion{
+            width: 600px;
+        }
+      </style>
+
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="0">
+  
+  <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MyApp</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#jumbotron">Inicio</a></li>
+        <li><a href="#wrapper">Acerca de</a></li>
+        <li><a href="#footer">Descarga la App</a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Email">
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+  <div id="jumbotron" class="jumbotron">
+  <h1>Consigue tu objetivo</h1>
+  <p>Estas a un paso de descargar esta fantastica aplicación</p>
+<p>¿Desea saber más? ingrese su correo</p>
+<hr id="separacion">
+ <div class="container-flex form-inline">
+ <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input id="email" type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+  <button id="wrapper" class="btn btn-primary">¡Suscribete!</button>
+  </div> 
+  </div> 
+   <div class="container">
+<h1>Porque esta app es impresionante</h1>
+<h3>Un nuevo resumen de la aplicación</h3>
+ <div id="principal" class="row col-sm-12">
+  <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img id="img1" src="img/img1.jpg" alt="...">
+      <div class="caption">
+       <h3><i class="fa2 fa fa-plug" aria-hidden="true"></i>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img id="img1" src="img/img1.jpg" alt="...">
+      <div class="caption">
+       <h3><i class="fa2 fa fa-mobile" aria-hidden="true"></i>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <img id="img1" src="img/img1.jpg" alt="...">
+      <div class="caption">
+          <h3><i class="fa2 fa fa-battery-full" aria-hidden="true"></i>Thumbnail label</h3>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>    
+      </div>
+    </div>
+  </div>
+  </div> 
+      </div>   
+      <footer id="footer">
+          <div class="row">
+              <h2>Descarga la app</h2>
+              <p class="lead">¡Descarga la app y consigue tus objetivos!</p>
+              <img class="imagen" src="img/google.png">
+              <img class="imagen" src="img/apple.png">
+              
+          </div>
+          
+      </footer>
+    <script
+     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
